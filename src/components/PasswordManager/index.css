@@ -1,0 +1,503 @@
+@media screen and (max-width: 768px) {
+  .bg-card {
+    background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto';
+  }
+  .password-manager-card {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-card {
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .logo-img {
+    height: 60px;
+  }
+
+  .add-new-password-card {
+    background-color: #5763a5;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    width: 90vw;
+  }
+  .input-password-card {
+    background-color: #454f84;
+    width: 80vw;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .add-new-password-heading {
+    color: #f8fafc;
+    font-size: 25px;
+  }
+  .input-form-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .enter-website-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8fafc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 69vw;
+    height: 35px;
+  }
+  .enter-website-img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  .enter-website-name {
+    width: 50vw;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-left: 1px solid #94a3b8;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f8fafc;
+  }
+
+  .enter-username-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8fafc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 69vw;
+    height: 35px;
+  }
+  .enter-username-img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  .enter-username-name {
+    width: 50vw;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-left: 1px solid #94a3b8;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f8fafc;
+  }
+
+  .enter-password-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8fafc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 69vw;
+    height: 35px;
+  }
+  .enter-password-img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  .enter-password-name {
+    width: 50vw;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-left: 1px solid #94a3b8;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f8fafc;
+  }
+  .add-btn {
+    background-color: #0b69ff;
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+    color: #f8fafc;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+
+  .password-manager-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .your-password-card {
+    background-color: #5763a5;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    min-height: 550px;
+    padding: 15px;
+    width: 90vw;
+  }
+  .your-password-search-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #7683cb;
+    width: 80vw;
+  }
+  .counts-card {
+    display: flex;
+  }
+
+  .your-password-text {
+    color: #f8fafc;
+    font-size: 15px;
+  }
+
+  .counts {
+    font-size: 12px;
+    color: #f8fafc;
+    height: 20px;
+    padding-top: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 20px;
+    border: 1px solid #94a3b8;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 9px;
+  }
+
+  .search-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8fafc;
+    padding-left: 10px;
+    padding-right: 20px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  .search-img {
+    height: 20px;
+    margin-right: 5px;
+    background-color: #f8fafc;
+  }
+  .search-input {
+    background-color: #f8fafc;
+    height: 25px;
+    width: 80px;
+    border: none;
+    outline: none;
+    border-left: 1px solid #94a3b8;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+  .show-password-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 80vw;
+  }
+  .show-password-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .show-password-tick {
+    height: 20px;
+    width: 15px;
+  }
+  .show-password-text {
+    color: #f8fafc;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .password-list-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: -50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-card {
+    background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto';
+  }
+  .password-manager-card {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-card {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .logo-img {
+    height: 60px;
+  }
+
+  .add-new-password-card {
+    background-color: #5763a5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px;
+    border-radius: 10px;
+    height: 500px;
+  }
+  .input-password-card {
+    background-color: #454f84;
+    width: 40vw;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .add-new-password-heading {
+    color: #f8fafc;
+    font-size: 30px;
+    align-self: flex-start;
+    margin-left: 16px;
+  }
+  .input-form-card {
+    padding: px;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+  }
+  .enter-website-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8fafc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 35vw;
+    height: 50px;
+  }
+  .enter-website-img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .enter-website-name {
+    width: 25vw;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-left: 1px solid #94a3b8;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f8fafc;
+  }
+
+  .enter-username-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8fafc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 35vw;
+    height: 50px;
+  }
+  .enter-username-img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .enter-username-name {
+    width: 25vw;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-left: 1px solid #94a3b8;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f8fafc;
+  }
+
+  .enter-password-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f8fafc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 35vw;
+    height: 50px;
+  }
+  .enter-password-img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .enter-password-name {
+    width: 25vw;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-left: 1px solid #94a3b8;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f8fafc;
+  }
+  .add-btn {
+    background-color: #0b69ff;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    color: #f8fafc;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+
+  .password-manager-img {
+    width: 350px;
+    height: 440px;
+    margin-top: -20px;
+  }
+
+  .your-password-card {
+    background-color: #5763a5;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 35px;
+    padding-top: 5px;
+    min-height: 550px;
+  }
+  .your-password-search-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #7683cb;
+  }
+  .counts-card {
+    display: flex;
+  }
+  .your-password-text {
+    color: #f8fafc;
+    font-size: 30px;
+  }
+  .counts {
+    font-size: 15px;
+    color: #f8fafc;
+    height: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 20px;
+    border: 1px solid #94a3b8;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .search-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8fafc;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+  }
+  .search-img {
+    height: 30px;
+    margin-right: 10px;
+    background-color: #f8fafc;
+  }
+  .search-input {
+    background-color: #f8fafc;
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-left: 1px solid #94a3b8;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+
+  .show-password-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .show-password-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .show-password-tick {
+    height: 30px;
+    width: 20px;
+  }
+  .show-password-text {
+    color: #f8fafc;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .password-list-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: -50px;
+  }
+}

@@ -1,0 +1,126 @@
+@media screen and (max-width: 768px) {
+  .password-view-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #7683cb;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .password-view-details-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-letter {
+    color: #f8fafc;
+    background-color: #10b981;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 30px;
+  }
+  .website-details-card {
+    margin-left: 10px;
+  }
+
+  .website-website-text {
+    color: #f8fafc;
+    font-size: 17px;
+    margin-bottom: -2px;
+  }
+  .website-name-text {
+    color: #f8fafc;
+    font-size: 17px;
+    margin-top: -1px;
+  }
+
+  .stars-img {
+    height: 32px;
+    width: 100px;
+  }
+
+  .del-btn {
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .delete-img {
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .password-view-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    border: 1px solid #7683cb;
+    padding: 10px;
+    padding-top: 15px;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .password-view-details-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-letter {
+    color: #f8fafc;
+    background-color: #10b981;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  .website-details-card {
+    margin-left: 20px;
+  }
+  .website-website-text {
+    color: #f8fafc;
+    font-size: 17px;
+  }
+  .website-name-text {
+    color: #f8fafc;
+    font-size: 17px;
+    margin-top: -1px;
+  }
+
+  .stars-img {
+    height: 32px;
+    width: 100px;
+  }
+
+  .del-btn {
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .delete-img {
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}
